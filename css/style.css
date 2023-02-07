@@ -142,12 +142,14 @@ a {
 
 /* MAIN */
 
+
 .main-container{
     display: flex;
     justify-content: center;
     align-items: center;
     /* height: 400px; */
     padding: 30px 0;
+    
 }
 
 .squareblue{
@@ -173,6 +175,10 @@ a {
     /* border: 1px dashed black; */
 }
 
+.wave {
+    margin: -5px;
+}
+
 .main-container-middle{
     display: flex;
     justify-content: center;
@@ -181,6 +187,10 @@ a {
     background-color: #D3D3D3;
     flex-direction: row-reverse;
     padding: 30px 0;
+}
+
+.second-wave {
+    transform: rotate(180deg);
 }
 
 .main-container-end{
