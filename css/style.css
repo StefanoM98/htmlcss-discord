@@ -9,7 +9,20 @@ img {
     max-width: 100%;
 }
 
+body {
+    Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
 /* HEADER */
+.jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
 .header-section{
     display: flex;
     justify-content: center;
@@ -17,25 +30,33 @@ img {
     height: 70px;
     padding: 0 10px;
     /* DEBUG */
-    background-color: #ADD8E6;
+    /* background-color: #ADD8E6; */
 }
 
 .container{
-    background-color: #DAA520 ;
+    /* background-color: #DAA520 ; */
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    width: 70%;
+    width: 80%;
     align-items: center;
 }
 
 .logo{
-    border: 1px black dashed;
-    width: 25%;
+    /* border: 1px black dashed; */
+    width: 15%;
+}
+
+.action a {
+    width: 30px;
+    height: 60px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 40px; 
 }
 
 .header-nav{
-    border: 1px black dashed;
+    /* border: 1px black dashed; */
     width: 50%;
     text-align: center;
 }
@@ -43,18 +64,19 @@ img {
 .header-nav ul {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
     list-style-type: none;
 }
 
 .header-nav a {
     text-decoration: none;
-    color: black;
+    color: white
 }
 .action{
-    border: 1px black dashed;
-    width: 25%;
+    /* border: 1px black dashed; */
+    /* width: 25%; */
     text-align: right;
+    display: inline-block;
 }
 
 .action a{
@@ -64,7 +86,7 @@ img {
 /* HEADER BANNER */
 
 .header-banner{
-    background-color: #00008B;
+    /* background-color: #00008B; */
     height: 400px;
     display: flex;
     justify-content: center;
@@ -72,13 +94,43 @@ img {
 }
 
 .content{
-    background-color: #EE82EE;
+    /* background-color: #EE82EE; */
     width: 60%;
     height: 300px;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
+.title{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.action-banner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.action-banner .action a{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+
+
 /* MAIN */
+
 .main-container{
     display: flex;
     justify-content: center;
