@@ -233,19 +233,43 @@ a {
 
 .first-footer{
     background-color: #23272A;
-    height: 450px;
+    /* height: 450px; */
     display: flex;
     justify-content: center;
     flex: start;
-    padding-bottom: 20px;
+    padding: 30px 0;
 }
 
 .coral-column{
     width: 250px;
-    background-color: #F08080;
+    /* background-color: #F08080; */
     margin: 10px 0;
-    border: 1px dashed black;
+
+    /* border: 1px dashed black; */
 }
+/* PRIMA COLONNA */
+.coral-column p{
+    font-size: 2rem;
+    color: #7389da;
+    padding-bottom: 15px;
+}
+.languages{
+    height: 16px;
+    display: flex;
+}
+.languages span{
+    color: white;
+    margin-left: 10px;
+}
+
+.socials{
+    color: white;
+}
+.socials i{
+    padding: 20px 5px;
+}
+
+
 .aqua-column{
     width: 150px;
     background-color: #20B2AA;
