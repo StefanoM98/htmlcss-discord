@@ -10,7 +10,7 @@ img {
 }
 
 body {
-    Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -38,7 +38,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    width: 80%;
+    width: 90%;
     align-items: center;
 }
 
@@ -47,12 +47,15 @@ a {
     width: 15%;
 }
 
-.action a {
+.action-header  a{
     width: 30px;
     height: 60px;
     background-color: white;
     padding: 5px;
     border-radius: 40px; 
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 10px;
 }
 
 .header-nav{
@@ -77,10 +80,6 @@ a {
     /* width: 25%; */
     text-align: right;
     display: inline-block;
-}
-
-.action a{
-    text-decoration: none;
 }
 
 /* HEADER BANNER */
@@ -113,19 +112,29 @@ a {
     margin-top: 40px;
 }
 
-.action-banner {
+.action-content {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    
 }
 
-.action-banner .action a{
-    padding: 10px;
+.action-content .action a{
     margin-left: 20px;
+    width: 30px;
+    height: 60px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 16px 32px;
 }
-
+.action-content .black a {
+    background-color: #23272a;
+    color: white;
+}
 
 
 
@@ -139,17 +148,26 @@ a {
 }
 
 .squareblue{
-    background-color: #1E90FF;
-    width: 400px;
-    height: 350px;
-    border: 1px dashed black;
+    /* background-color: #1E90FF; */
+    width: 35%;
+    max-height: 400px;
+    /* height: 350px; */
+    /* border: 1px dashed black; */
+}
+.squarepink h2{
+    font-size: 2.6rem;
+}
+
+.squarepink p{
+    margin-top: 20px;
+    line-height: 24px;
 }
 
 .squarepink{
-    background-color: #FFC0CB;
-    width: 300px;
-    height: 350px;
-    border: 1px dashed black;
+    /* background-color: #FFC0CB; */
+    width: 30%;
+    /* height: 350px; */
+    /* border: 1px dashed black; */
 }
 
 .main-container-middle{
